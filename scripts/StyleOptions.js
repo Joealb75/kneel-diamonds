@@ -1,5 +1,15 @@
+import { setStyleChoice } from "./transientState.js"
+
+const handleStyleChoice = (event) => {
+    if(event.target.name === "style"){
+        setStyleChoice(parseInt(event.target.value))
+    }
+}
 
 export const StyleOptions = async () => {
+
+  document.addEventListener("change", handleStyleChoice)
+
     const response = await fetch("http://localhost:8088/styles")
     const convertData = await response.json() 
     

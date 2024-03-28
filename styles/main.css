@@ -1,0 +1,51 @@
+
+body {
+    background-color: slategray ;
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+}
+
+.head{
+    text-align: center;
+}
+
+.allOrders{
+    display: flex;
+    justify-content: center;
+}
+
+
+.options {
+    
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+
+.choices h2 {
+    margin-top: 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#orderButton{
+    margin-top: 8px;
+    background-color: lightblue;
+    padding: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+
